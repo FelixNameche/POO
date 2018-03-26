@@ -101,6 +101,8 @@ class voiture {
 </html>
 
 
-
+<?php 
+$car = new voiture('audi', 'a4',...);
+echo $car->nom;
 
 

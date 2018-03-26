@@ -11,25 +11,25 @@ class voiture {
         $kilometre = $kilometre + 100000;
     }
     
-    public $nom = 'Audi';
-    public $modele ='A4';
-    public $couleur = 'champagne';
-    public $kilometre = 100000;
-    public $poid = 1800;
-    public $immatriculation = "1 HPJ 790";
-    public $paysbe = "Belgique";
+    public $nom;
+    public $modele;
+    public $couleur;
+    public $kilometre;
+    public $poid;
+    public $immatriculation;
+    public $paysbe;
     public $paysfr ="France";
     public $paysde ="Allemagne";
-    public $datecirculation ="2002";
+    public $datecirculation;
 
 
     public function __construct($nom, $modele, $couleur, $kilometre, $poid, $immatriculation, $paysbe, $paysfr, $paysde, $datecirculation){
 
         // $this->nom = ucfirst($nom);
-        // $this->modele = $modele;
-        // $this->couleur = $couleur;
-        // $this->kilometre = $kilometre;
-        // $this->poid = $poid;
+        $this->modele = $modele;
+        $this->couleur = $couleur;
+        $this->kilometre = $kilometre;
+        $this->poid = $poid;
         // $this->immatriculation = $immatriculation;
         // $this->paysbe = $paysbe;
         // $this->paysfr = $paysfr;
